@@ -24,7 +24,7 @@
     - Xem lại lịch sử ăn uống (History).
 
 ## 4. UI Design — Thiết kế giao diện
-https://stitch.withgoogle.com/projects/15568712745639582270
+https://stitch.withgoogle.com/projects/9056904569092767828
 
 ## 5. ERD — Sơ đồ thực thể && Sách tham khảo dữ liệu
 https://drive.google.com/drive/folders/1uCx8uaELUq_M9ACokqMFkdzD1akBgJ8g?usp=sharing
