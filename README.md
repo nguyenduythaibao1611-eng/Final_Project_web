@@ -1,4 +1,4 @@
-# 🥗 PROJECT: VIECAL - VIETNAMESE NUTRITION TRACKER
+# 🥗 PROJECT: CaloMate - Người bạn đồng hành mỗi ngày.
 
 ## 1. Objective — Mục tiêu dự án
 * **Số hóa dữ liệu:** Trích xuất và xây dựng cơ sở dữ liệu cho 100+ thực phẩm phổ biến từ sách "Bảng thành phần thực phẩm Việt Nam".
@@ -14,6 +14,7 @@
 
 ## 3. Feature List (MoSCoW)
 * **Must have:**
+    - Đăng nhập/Đăn ký tài khoảng(Login)
     - Tra cứu thực phẩm theo tên (Search).
     - Hiển thị chi tiết dinh dưỡng P-L-G (Details).
     - Tính toán năng lượng theo khẩu phần gram (Portion Calc).
@@ -21,20 +22,9 @@
 * **Should have:**
     - Thiết lập mục tiêu Calo cá nhân (Goal Setting).
     - Xem lại lịch sử ăn uống (History).
-    - Đăng nhập tài khoản lưu trữ dữ liệu (Login).
-* **Nice to have:**
-    - Công cụ tính BMR/TDEE tự động.
-    - Danh sách món ăn yêu thích (Favorites).
-    - So sánh thành phần giữa 2 loại thực phẩm (Compare).
 
 ## 4. UI Design — Thiết kế giao diện
-* **Mockup:** Dashboard trung tâm với vòng tròn Progress Bar (Glassmorphism), thanh tìm kiếm nhanh và các thẻ (Card) bữa ăn sáng/trưa/tối.
-* **Color & Typography:** Mint Green (#E8F5E9) & White; Font: "Be Vietnam Pro".
-* **User Flow:** Login -> Input Stats -> Search Food -> Add to Diary -> Track Progress.
+https://stitch.withgoogle.com/projects/15568712745639582270
 
-## 5. ERD — Sơ đồ thực thể (5 Entities)
-* **FOOD_GROUP:** Phân loại nhóm thực phẩm (1:N FOOD).
-* **FOOD:** Dữ liệu thực phẩm từ sách (Name, Kcal, P, L, G, Reference_Page).
-* **USER:** Thông tin cá nhân và chỉ số TDEE.
-* **DIARY:** Nhật ký tổng hợp theo ngày của User (1:N DIARY_ENTRY).
-* **DIARY_ENTRY:** Chi tiết món ăn và khối lượng trong một nhật ký.
+## 5. ERD — Sơ đồ thực thể && Sách tham khảo dữ liệu
+https://drive.google.com/drive/folders/1uCx8uaELUq_M9ACokqMFkdzD1akBgJ8g?usp=sharing
